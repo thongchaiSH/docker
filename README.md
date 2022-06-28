@@ -6,6 +6,7 @@ docker run --name memcached -it --rm -p 11211:11211 docker.io/bitnami/memcached:
 - Redis
 ```
 docker run --name nbm-redis -p  6379:6379 redis
+docker run --name redis -d -p 6379:6379 redis redis-server --requirepass "8gNR#9V2}[<W"
 ```
 - Mysql
 ```
